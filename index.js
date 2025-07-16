@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use(cors({
-    origin: 'https://blogvibeweb.netlify.app/',
+    origin: '*',
     credentials: true, 
   }));
   
